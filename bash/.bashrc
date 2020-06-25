@@ -87,6 +87,4 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-source ~/.bash/.bash_aliases
-source ~/.bash/.prompt
-echo '123'
+source ~/.bash_prompt
