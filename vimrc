@@ -3,7 +3,10 @@ syntax on
 set showmatch
 set nu
 set autoindent
-
+set scrolloff=5   " show lines above and below cursor (when possible)
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set background=dark
 colorscheme solarized
 set ignorecase
