@@ -88,3 +88,4 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 source ~/.bash_prompt
+if [ -f ~/.Xmodmap ]; then xmodmap ~/.Xmodmap; fi
